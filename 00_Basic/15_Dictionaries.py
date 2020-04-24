@@ -1,0 +1,40 @@
+import os
+os.system("clear")
+print("Hello!")
+print("============================================================")
+print("Let's examine Dictionaries!")
+print("------------------------------------------------------------")
+dic1 = {"Name":"John","Surname":"Smith","Age":"32"}
+dic2 = {"Name":"John","Surname":"Fraser","Age":"17"}
+dic3 = {"Item1":"Potatoes","Item2":"Tomatoes","Item3":"Carrots"}
+dic4 = {"Item1":"Carrots","Item2":"Tomatoes","Item3":"Onions"}
+print("dic1:",dic1)
+print("dic2:",dic2)
+print("dic3:",dic3)
+print("dic4:",dic4)
+print()
+print("Extracting values from keys:")
+print("dic1[\"Name\"]\t:",dic1["Name"])
+print("dic1[\"Surname\"]\t:",dic1["Surname"])
+print("dic1[\"Age\"]\t:",dic1["Age"])
+print()
+print("dic2[\"Name\"]\t:",dic2["Name"])
+print("dic2[\"Surname\"]\t:",dic2["Surname"])
+print("dic2[\"Age\"]\t:",dic2["Age"])
+print()
+print("============================================================")
+print("Comparison of sizes between:")
+print("Strings\t\tLists\t\tTuples\t\tDictionaries")
+print("------------------------------------------------------------")
+str1 = ["Potatoes","Tomatoes","Carrots","Onions"]
+lis1 = ["Potatoes","Tomatoes","Carrots","Onions", 3.1415926535]
+tup1 = ("Potatoes","Tomatoes","Carrots","Onions", 3.1415926535)
+print("str1\t:",str1)
+print("Size\t:",str1.__sizeof__())
+print("lis1\t:",lis1)
+print("Size\t:",lis1.__sizeof__())
+print("tup1\t:",tup1)
+print("Size\t:",tup1.__sizeof__())
+print("dic1\t:",dic1)
+print("Size\t:",dic1.__sizeof__())
+print()
